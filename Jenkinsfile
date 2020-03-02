@@ -3,7 +3,7 @@ pipeline {
     agent any
     stages {
     
-    	stage('Build') {
+    	stage('Building spring-petclinic...') {
     	    steps {
     		echo 'Running build automation'
     		sh 'mvn package'
